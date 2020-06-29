@@ -57,7 +57,7 @@ my_date=$(date +"%Y.%m.%d.at.%H.%M")
 my_file_name=crosswork.network.insights.alarms
 my_alarms_file=$my_file_name.$my_date
 
-echo "RUNNING : $PWD/crosswork.py $args1 > $my_alarms_file"
+echo "RUNNING : $PWD/crosswork.py $args1 > $output_folder/$my_alarms_file"
 $CROSSWORK_PYTHON_SCRIPT $args1 > $output_folder/$my_alarms_file
 
 # python3 $CROSSWORK_PYTHON_SCRIPT '"' $cmd1 '"'
