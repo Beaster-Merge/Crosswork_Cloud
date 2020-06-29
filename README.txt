@@ -11,6 +11,6 @@ crosswork_keyid=''
 
 # Step 2 Edit the output folder as required Run the script crosswork_get_alarms.sh
 
-output_folder=""
+output_folder="."
 
 # Step 3 Run the Bash Script "crosswork_get_alarms.sh" in a Cron or other scheduler
