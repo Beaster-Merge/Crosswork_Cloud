@@ -55,7 +55,7 @@ args1="--uri=$uri_alarms --key=$crosswork_key --keyid=$crosswork_keyid --method=
 
 my_date=$(date +"%Y.%m.%d.at.%H.%M")
 my_file_name=crosswork.network.insights.alarms
-my_alarms_file=$my_file_name.$my_date
+my_alarms_file=$my_file_name.$my_date.json
 
 echo "RUNNING : $PWD/crosswork.py $args1 > $output_folder/$my_alarms_file"
 $CROSSWORK_PYTHON_SCRIPT $args1 > $output_folder/$my_alarms_file
